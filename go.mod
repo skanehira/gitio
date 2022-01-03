@@ -1,4 +1,4 @@
-module github.com/skanehira/go-cli-template
+module github.com/skanehira/gitio
 
 go 1.17
 
