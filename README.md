@@ -6,22 +6,13 @@
 ![GitHub Release Status](https://img.shields.io/github/workflow/status/skanehira/gitio/Release?label=release)
 
 # gitio
-This is template that help you to quick implement some CLI using Go.
-
-This repository is contains following.
-
-- minimal CLI implementation using [spf13/cobra](https://github.com/spf13/cobra)
-- CI/CD
-  - golangci-lint
-  - go test
-  - goreleaser
-  - dependabot for github-actions and Go
-  - CodeQL Analysis (Go)
+This is CLI for [git.io](https://git.io)
 
 ## How to use
-1. fork this repository
-2. replace `skanehira` to your user name using `sed`(or others)
-3. run `make init`
+```sh
+$ gitio https://docs.github.com/en/search-github/searching-on-github/searching-issues-and-pull-requests
+https://git.io/JSKd3
+```
 
 ## Author
 skanehira
